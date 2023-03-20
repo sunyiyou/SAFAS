@@ -355,6 +355,9 @@ def str2bool(x):
 
 if __name__ == '__main__':
     args = parse_args()
+    torch.manual_seed(args.seed)
+    torch.cuda.manual_seed(args.seed)
+    np.random.seed(args.seed)
 
     pretrain_alias = {
         "imagenet": "img",
