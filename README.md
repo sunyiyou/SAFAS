@@ -23,9 +23,7 @@ Download the OULU-NPU, CASIA-FASD, Idiap Replay-Attack, and MSU-MFSD datasets. P
 
 Run `./preposess.py`.
 
-## Demo
-
-### 3. Prepocessing 
+### 3. Demo 
 
 Run `./train.py --protocol [O_C_I_to_M/O_M_I_to_C/O_C_M_to_I/I_C_M_to_O]`.
 
